@@ -34,3 +34,25 @@ let totalTunjangan = tunjanganMarried + tunjanganAnak;
 let gajiBersih = gajiPokok + totalTunjangan - debt;
 
 console.log(gajiBersih);
+
+// Ans_2:
+let count = 0;
+let state = true;
+while (state) {
+  lotre = Math.floor(Math.random() * 50 + 1);
+  console.log(lotre);
+  count++;
+  if (lotre % 5 === 0) {
+    console.log(`${lotre} - anda menang setelah percobaan ke-${count}`);
+    state = false;
+  }
+}
+
+// Ans_3
+let num = 3;
+let result = "";
+
+for (let i = 0; i < num; i++) {
+  result += "*";
+}
+console.log(result);
