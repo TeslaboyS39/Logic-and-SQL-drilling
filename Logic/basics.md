@@ -21,4 +21,4 @@
 3. Buat pola bintang sebanyak input variabel num, misal num = 3 maka kolomnya ada 3 simbol bintang(`***`) yang  
    dicetak sebanyak 1 baris saja
 
-4.
+4. Buatlah pengubah huruf vokal pada suatu kalimat menjadi simbol '$' dengan teknik flagging

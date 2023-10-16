@@ -56,3 +56,22 @@ for (let i = 0; i < num; i++) {
   result += "*";
 }
 console.log(result);
+
+// Ans_4
+let a = "you only live twice";
+let b = "aiueo";
+let temp = "";
+
+for (let i = 0; i < a.length; i++) {
+  let flag = false;
+  for (let j = 0; j < b.length; j++) {
+    if (a[i] === b[j]) {
+      temp += "$";
+      flag = true;
+    }
+  }
+  if (flag === false) {
+    temp += a[i];
+  }
+}
+console.log(temp);
